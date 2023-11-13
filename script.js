@@ -86,12 +86,14 @@ window.onload = function(){
     document.getElementById("btn_op_coren").onclick = function() {
         if(selectedOperation === null){
             if(a !== ''){
-                a = (Math.sqrt(a)).toString();
-                outputElement.innerHTML=a;
+                a = (Math.sqrt(a)).toFixed(3);
+                a.toString()
+                outputElement.innerHTML = a;
             }
         } else {
             if(b !== ''){
-                b = (Math.sqrt(b*a)).toString();
+                b = (Math.sqrt(b*a)).toFixed(3);
+                b.toString()
                 outputElement.innerHTML = b;
             }
         }
