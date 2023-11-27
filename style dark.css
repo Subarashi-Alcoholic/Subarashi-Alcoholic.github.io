@@ -4,7 +4,7 @@
   left: 50%;
   top: 35%;
   transform: translate(-50%, -50%);
-  background-image: url('/img/16806034115110.jpg');
+  background-image: url(/img/16806034115110.jpg);
   background-repeat: no-repeat;
   background-size: contain;
 }
