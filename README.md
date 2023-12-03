@@ -1,2 +1,2 @@
-Лабораторная работа №1 и №2 Subarashi-Alcoholic.github.io/Lr2
-Лабораторная работа №3 Subarashi-Alcoholic.github.io/Lr3
+Лабораторная работа №1 и №2 "Https://Subarashi-Alcoholic.github.io/Lr2"
+Лабораторная работа №3 "Https://Subarashi-Alcoholic.github.io/Lr3"
