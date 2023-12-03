@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  html,body {
+    background-color: #121212;
+    color: #fff;
+    height: 100%;
+    margin: 0;
+  } 
+  
+  .card {
+    width: 200px;
+    height: 150px;
+    background-color: #00d800;
+    text-align: center;
+    color: #000000;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .card a {
+    text-align: center;
+    color: #000000;
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .cardNR a {
+    text-align: center;
+    color: #000000;
+  }
+
+  
+  .cardNR h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .cardNR {
+    width: 200px;
+    height: 150px;
+    background-color: #333;
+    text-align: center;
+    color: #000000;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .blink {
+    animation: blink 0.5s linear 2;
+  }
+  
+  @keyframes blink {
+    0% {
+      background-color: #333;
+    }
+    50% {
+      background-color: red;
+    }
+    100% {
+      background-color: #333;
+    }
+  }
+
+  .header {
+    background-color: #333;
+    color: #00d800;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+  }
+
+  .header h1 {
+    font-size: 32px;
+  }
+
+  .footer {
+    background-color: #333;
+    color: #9c9c9c;
+    text-align: left;
+    padding: 10px 10px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  
